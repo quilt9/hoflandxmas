@@ -58,6 +58,12 @@ body
     }
 }
 
+@media only screen and (max-width: 768px){
+	.col-md-6.panel {
+	padding: 30px 15px;
+	}
+}
+
 .margin-base-vertical {
 	margin: 10px 0;
 }
