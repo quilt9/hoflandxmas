@@ -37,8 +37,17 @@ h1.margin-base-vertical.text-center {
 	color: #686868;
 }
 
+.margin-base-vertical {
+	margin: 10px 0;
+}
+
+#req {
+	color: #ff0000;
+}
+
+
 /* Override B3 .panel adding a subtly transparent background */
-@media(min-width:920px) {
+@media screen and (min-width:920px) {
 body
 	.container .panel {
 			position: fixed;
@@ -47,19 +56,14 @@ body
 		}
 	}
 	
-@media only screen and (min-width: 768px){
+@media screen and (min-width: 769px){
     body{
         padding: 520px 30px 30px 30px;
     }
 }
 
-@media (max-device-width: 480px) {
-    body{
-        padding: 30px;
-    }
-}
 
-@media only screen and (max-width: 767px){
+@media screen and (max-width: 768px){
 	body {
 		padding: 0px;
 	}
@@ -67,7 +71,6 @@ body
 	.container .panel {
 		position: fixed;
 		top:25%;	
-		}
 	}
 	
 	.col-md-6.panel {
@@ -75,10 +78,16 @@ body
 	}
 }
 
-.margin-base-vertical {
-	margin: 10px 0;
+@media screen and (max-device-width: 480px) {
+	body{
+	 padding: 10px;
+	}
+	.container .panel {
+		position: initial;
+		top:0;	
+	}
+	h1.margin-base-vertical.text-center {
+		font-size: 24px;
+	}
 }
 
-#req {
-	color: #ff0000;
-}
