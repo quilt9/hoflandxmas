@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Hofland Christmas Prebook 2015 is now digital!</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!--latest rendering mode for IE-->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<!--[if lt IE 8]>
+        <link href="/css/bootstrap-ie7.css" rel="stylesheet">
+<![endif]-->
+	
+	<!--SITE STYLES-->
+	
+	<!--Google fonts: Open Sans/Norican-->
+	<link href='https://fonts.googleapis.com/css?family=Norican|Open+Sans' rel='stylesheet' type='text/css'>
+	
+	<!--responsive-full-background-image.css stylesheet-->
+	<link rel="stylesheet" type="text/css" href="css/responsive-full-background-image.css">
+
+	<!--load local custom css-->
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">	
+
+	<!--Bootstrap-->
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+		
+</head>
+<body>
+<div class="container">
+<div class="row">
+<div class="col-md-6 panel">
+<p class="margin-base-vertical text-center">
+	<a href="http://www.hofland.com/" target="_blank" title="hofland corporate website hofland.com"><img src="images/Hofland_logo.png" width="25%" /></a>
+	</p>
+	<h1 class="margin-base-vertical text-center">
+		Hofland Christmas Prebook 2015 is now digital!
+	</h1>
+	<p class="lead text-center">
+		Get your free online copy here. Placing your prebook order before May 31st, 2015 will help ensure availability on your must have items. Quantities are limited.
+	</p><!--.lead-->
+	<form name="prebook" action="#" onsubmit="required()">
+		<p class="input-group"> 
+		<span class="input-group-addon">Enter Password<span id="req"> *</span></span>
+		<input id="password" type="text" class="form-control input-lg" name="password" />
+	</p><!--.input-group-->
+	<p><span id="req">* </span>Required Field</p>
+	<p class="text-center">
+		<input id="submit_button" type="submit" class="btn btn-success btn-lg" name="submit" value="Download Prebook" />
+	</p><!--.help-block-->
+	</form>
+	<p id="error" class="lead text-center"></p>
+	<p class="help-block text-center"><small>To request a hard copy please give us a call at 18003876760</small></p>
+</div><!--.col-md-6-->
+</div><!--.row-->
+<div class="row">
+<div class="pdf">
+	<iframe id="invisible" style="display:none;"></iframe>
+</div>
+</div><!--.row-->
+
+</div><!--.container-->
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<!--load bootstrap locally-->
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
+	<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!--form js-->
+    <script language="JavaScript" src="js/download_form.js"></script>
+
+</body>
+</html>
